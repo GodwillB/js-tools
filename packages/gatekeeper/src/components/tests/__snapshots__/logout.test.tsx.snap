@@ -40,7 +40,7 @@ exports[`gatekeeper/ConnectedLogout renders the ConnectedLogout component when l
   >
     <a
       className="gatekeeper-btn"
-      href="https://stage-api.ona.io/o/authorize/?client_id=hunter2&redirect_uri=https%3A%2F%2Fexample.com%2Foauth%2Fcallback%2Fonadata%2F&scope=read%20write&response_type=token&state=abc"
+      href="https://stage-api.ona.io/o/authorize/?client_id=hunter2&redirect_uri=https%3A%2F%2Fexample.com%2Foauth%2Fcallback%2Fonadata%2F&response_type=token&state=abc&scope=read%20write"
     >
       onadata
     </a>
@@ -88,41 +88,10 @@ exports[`gatekeeper/ConnectedLogout renders the ConnectedLogout when logged in: 
   >
     <a
       className="gatekeeper-btn"
-      href="https://stage-api.ona.io/o/authorize/?client_id=hunter2&redirect_uri=https%3A%2F%2Fexample.com%2Foauth%2Fcallback%2Fonadata%2F&scope=read%20write&response_type=token&state=abc"
+      href="https://stage-api.ona.io/o/authorize/?client_id=hunter2&redirect_uri=https%3A%2F%2Fexample.com%2Foauth%2Fcallback%2Fonadata%2F&response_type=token&state=abc&scope=read%20write"
     >
       onadata
     </a>
   </p>
-</div>
-`;
-
-exports[`gatekeeper/ConnectedLogout works with its props as expected 1`] = `
-Object {
-  "action": "REPLACE",
-  "block": [Function],
-  "canGo": [Function],
-  "createHref": [Function],
-  "entries": Any<Array>,
-  "go": [Function],
-  "goBack": [Function],
-  "goForward": [Function],
-  "index": 0,
-  "length": 1,
-  "listen": [Function],
-  "location": ObjectContaining {
-    "hash": "",
-    "key": Any<String>,
-    "pathname": "/",
-    "search": "",
-    "state": undefined,
-  },
-  "push": [Function],
-  "replace": [Function],
-}
-`;
-
-exports[`gatekeeper/ConnectedLogout works with its props as expected 2`] = `
-<div>
-  Home
 </div>
 `;
